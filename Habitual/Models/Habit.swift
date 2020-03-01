@@ -26,6 +26,33 @@ struct Habit {
     }
     
     
+    enum Images: Int, CaseIterable {
+        case book
+        case bulb
+        case clock
+        case code
+        case drop
+        case food
+        case grow
+        case gym
+        case heart
+        case lotus
+        case other
+        case pet
+        case pill
+        case search
+        case sleep
+        case tooth
+
+        var image: UIImage {
+            guard let image = UIImage(named: String(describing: self)) else {
+                fatalError("image \(self) not found")
+            }
+
+            return image
+        }
+    }
+    
 }
 
 
