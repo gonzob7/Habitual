@@ -16,6 +16,10 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="8Qe-Vt-SyA"/>
+                <outlet property="delegate" destination="-1" id="7ar-dc-7Ub"/>
+            </connections>
             <point key="canvasLocation" x="-17" y="95"/>
         </tableView>
     </objects>
