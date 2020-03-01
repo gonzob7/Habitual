@@ -17,6 +17,8 @@
 		E094EF2A240C5F880052306F /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF29240C5F880052306F /* Habit.swift */; };
 		E094EF2C240C630E0052306F /* HabitsTableViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = E094EF20240B3AD90052306F /* HabitsTableViewController.swift */; };
 		E094EF2E240C66AC0052306F /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF2D240C66AC0052306F /* DateExtensions.swift */; };
+		E094EF2F240C67C90052306F /* DateExtensions.swift in Resources */ = {isa = PBXBuildFile; fileRef = E094EF2D240C66AC0052306F /* DateExtensions.swift */; };
+		E094EF30240C67D90052306F /* Habit.swift in Resources */ = {isa = PBXBuildFile; fileRef = E094EF29240C5F880052306F /* Habit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E094EF30240C67D90052306F /* Habit.swift in Resources */,
+				E094EF2F240C67C90052306F /* DateExtensions.swift in Resources */,
 				E094EF2C240C630E0052306F /* HabitsTableViewController.swift in Resources */,
 				E04A2E2B2400D9090049AF9F /* LaunchScreen.storyboard in Resources */,
 				E094EF23240B3AD90052306F /* HabitsTableViewController.xib in Resources */,

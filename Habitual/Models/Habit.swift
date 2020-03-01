@@ -20,6 +20,12 @@ struct Habit {
     var lastCompletionDate: Date?
     var numberOfCompletions: Int
     
+    
+    var completedToday: Bool {
+        return lastCompletionDate?.isToday ?? false
+    }
+    
+    
 }
 
 
