@@ -68,6 +68,8 @@
 		E094EF94240C69530052306F /* lotus.png in Resources */ = {isa = PBXBuildFile; fileRef = E094EF63240C69530052306F /* lotus.png */; };
 		E094EF95240C69530052306F /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = E094EF64240C69530052306F /* clock.png */; };
 		E094EF96240C69530052306F /* pet.png in Resources */ = {isa = PBXBuildFile; fileRef = E094EF65240C69530052306F /* pet.png */; };
+		E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF97240C6F070052306F /* HabitTableViewCell.swift */; };
+		E094EF9A240C6F070052306F /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094EF98240C6F070052306F /* HabitTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +133,8 @@
 		E094EF63240C69530052306F /* lotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotus.png; sourceTree = "<group>"; };
 		E094EF64240C69530052306F /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		E094EF65240C69530052306F /* pet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet.png; sourceTree = "<group>"; };
+		E094EF97240C6F070052306F /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
+		E094EF98240C6F070052306F /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 			children = (
 				E094EF20240B3AD90052306F /* HabitsTableViewController.swift */,
 				E094EF21240B3AD90052306F /* HabitsTableViewController.xib */,
+				E094EF97240C6F070052306F /* HabitTableViewCell.swift */,
+				E094EF98240C6F070052306F /* HabitTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -342,6 +348,7 @@
 				E094EF6D240C69530052306F /* heart.png in Resources */,
 				E04A2E2B2400D9090049AF9F /* LaunchScreen.storyboard in Resources */,
 				E094EF81240C69530052306F /* food.png in Resources */,
+				E094EF9A240C6F070052306F /* HabitTableViewCell.xib in Resources */,
 				E094EF69240C69530052306F /* sleep.png in Resources */,
 				E094EF85240C69530052306F /* clock.png in Resources */,
 				E094EF91240C69530052306F /* food.png in Resources */,
@@ -402,6 +409,7 @@
 				E04A2E1F2400D9080049AF9F /* AppDelegate.swift in Sources */,
 				E04A2E212400D9080049AF9F /* SceneDelegate.swift in Sources */,
 				E094EF22240B3AD90052306F /* HabitsTableViewController.swift in Sources */,
+				E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */,
 				E094EF2E240C66AC0052306F /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
