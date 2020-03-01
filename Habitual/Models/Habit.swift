@@ -7,11 +7,19 @@
 //
 
 import Foundation
+import UIKit
 
 struct Habit {
 
     var title: String
-
+    let dateCreated: Date
+    var selectedImage: UIImage
+    
+    var currentStreak: Int
+    var bestStreak: Int
+    var lastCompletionDate: Date?
+    var numberOfCompletions: Int
+    
 }
 
 
