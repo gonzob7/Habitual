@@ -10,6 +10,8 @@ import UIKit
 
 class HabitsTableViewController: UITableViewController {
 
+    var names: [String] = ["Alan", "Braus", "Adriana", "Mitchell", "Dani", "Jess", "Dan", "Meredith", "Dan", "Milad"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,8 +19,9 @@ class HabitsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return names.count
     }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell
         if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
@@ -26,7 +29,9 @@ class HabitsTableViewController: UITableViewController {
         } else {
             cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         }
-        cell.textLabel?.text = "Hello, world!"
+        
+        let name = names[indexPath.row]
+        cell.textLabel?.text = name
         return cell
     }
 
