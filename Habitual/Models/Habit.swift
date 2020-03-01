@@ -12,17 +12,22 @@ import UIKit
 struct Habit {
 
     var title: String
-    let dateCreated: Date
-    var selectedImage: UIImage
+    let dateCreated: Date = Date()
+    var selectedImage: Habit.Images
     
-    var currentStreak: Int
-    var bestStreak: Int
+    var currentStreak: Int = 0
+    var bestStreak: Int = 0
     var lastCompletionDate: Date?
-    var numberOfCompletions: Int
+    var numberOfCompletions: Int = 0
     
     
     var completedToday: Bool {
         return lastCompletionDate?.isToday ?? false
+    }
+    
+    init(title: String, image: Habit.Images) {
+        self.title = title
+        self.selectedImage = image
     }
     
     
@@ -52,6 +57,7 @@ struct Habit {
             return image
         }
     }
+    
     
 }
 
