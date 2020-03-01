@@ -13,10 +13,10 @@ import Foundation
 class HabitsTableViewController: UITableViewController {
 
     var habits: [Habit] = [
-        Habit(title: "Go to bed before 10pm"),
-        Habit(title: "Drink 8 Glasses of Water"),
-        Habit(title: "Commit Today"),
-        Habit(title: "Stand up every Hour")
+        Habit(title: "Go to bed before 10pm", image: Habit.Images.book),
+        Habit(title: "Drink 8 Glasses of Water", image: Habit.Images.book),
+        Habit(title: "Commit Today", image: Habit.Images.book),
+        Habit(title: "Stand up every Hour", image: Habit.Images.book)
     ]
     
     override func viewDidLoad() {
