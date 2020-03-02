@@ -21,6 +21,7 @@
 		E094EF30240C67D90052306F /* Habit.swift in Resources */ = {isa = PBXBuildFile; fileRef = E094EF29240C5F880052306F /* Habit.swift */; };
 		E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF97240C6F070052306F /* HabitTableViewCell.swift */; };
 		E094EF9A240C6F070052306F /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094EF98240C6F070052306F /* HabitTableViewCell.xib */; };
+		E094EF9C240C987D0052306F /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF9B240C987D0052306F /* PersistenceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E094EF2D240C66AC0052306F /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		E094EF97240C6F070052306F /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		E094EF98240C6F070052306F /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		E094EF9B240C987D0052306F /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E04A2E2C2400D9090049AF9F /* Info.plist */,
 				E094EF25240B3B980052306F /* UIViewControllerExtensions.swift */,
 				E094EF2D240C66AC0052306F /* DateExtensions.swift */,
+				E094EF9B240C987D0052306F /* PersistenceLayer.swift */,
 			);
 			path = Habitual;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				E094EF26240B3B980052306F /* UIViewControllerExtensions.swift in Sources */,
 				E094EF2A240C5F880052306F /* Habit.swift in Sources */,
 				E04A2E1F2400D9080049AF9F /* AppDelegate.swift in Sources */,
+				E094EF9C240C987D0052306F /* PersistenceLayer.swift in Sources */,
 				E04A2E212400D9080049AF9F /* SceneDelegate.swift in Sources */,
 				E094EF22240B3AD90052306F /* HabitsTableViewController.swift in Sources */,
 				E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */,

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Habit {
+struct Habit: Codable {
 
     var title: String
     let dateCreated: Date = Date()
