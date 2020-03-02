@@ -25,14 +25,14 @@
                                     <constraint firstAttribute="width" constant="44" id="G39-Ef-7SY"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-FG-RDG">
-                                <rect key="frame" x="54" y="0.0" width="187" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-FG-RDG">
+                                <rect key="frame" x="54" y="0.0" width="195" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-cJ-mBr">
-                                <rect key="frame" x="251" y="0.0" width="42" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-cJ-mBr">
+                                <rect key="frame" x="259" y="0.0" width="34" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,6 +49,11 @@
             </tableViewCellContentView>
             <accessibility key="accessibilityConfiguration" identifier="HabitCell"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewIcon" destination="xeQ-Ai-fc4" id="qus-R2-Pan"/>
+                <outlet property="labelHabitTitle" destination="uVH-FG-RDG" id="z9y-mY-wjQ"/>
+                <outlet property="labelStreaks" destination="e5f-cJ-mBr" id="iuS-lo-ESb"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="134.59821428571428"/>
         </tableViewCell>
     </objects>
