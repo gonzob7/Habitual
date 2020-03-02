@@ -21,9 +21,14 @@ class HabitsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupNavBar()
 
         // Do any additional setup after loading the view.
+        setupNavBar()
+        
+        tableView.register(
+                    HabitTableViewCell.nib,
+                    forCellReuseIdentifier: HabitTableViewCell.identifier
+        )
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

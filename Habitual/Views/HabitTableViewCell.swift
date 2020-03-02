@@ -15,6 +15,14 @@ class HabitTableViewCell: UITableViewCell {
     @IBOutlet weak var labelStreaks: UILabel!
     
     
+    // Set the identifier for the custom cell
+    static let identifier = "HabitCell"
+
+    // Returning the xib file after instantiating it
+    static var nib: UINib {
+           return UINib(nibName: String(describing: self), bundle: nil)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
