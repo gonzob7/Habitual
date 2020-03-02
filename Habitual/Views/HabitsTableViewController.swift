@@ -36,15 +36,9 @@ class HabitsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: UITableViewCell
-        if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
-            cell = dequeueCell
-        } else {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        }
-        
+        let cell = tableView.dequeueReusableCell( withIdentifier: HabitTableViewCell.identifier, for: indexPath) as! HabitTableViewCell
         let habit = habits[indexPath.row]
-        cell.textLabel?.text = habit.title
+        cell.configure(habit)
         return cell
     }
 
