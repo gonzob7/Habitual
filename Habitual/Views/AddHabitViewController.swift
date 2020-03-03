@@ -54,21 +54,12 @@ class AddHabitViewController: UIViewController {
 
     }
     
-    
-    
-    
     @IBAction func pickPhotoButtonPressed(_ sender: UIButton) {
+        guard let selectedIndexPath = selectedIndexPath else {return}
+        let confirmHabitVC = ConfirmHabitViewController.instantiate()
+        confirmHabitVC.habitImage = habitImages[selectedIndexPath.row]
+        navigationController?.pushViewController(confirmHabitVC, animated: true)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
