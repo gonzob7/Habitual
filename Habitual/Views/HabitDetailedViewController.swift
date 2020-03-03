@@ -10,6 +10,9 @@ import UIKit
 
 class HabitDetailedViewController: UIViewController {
 
+    var habit: Habit!
+    var habitIndex: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
