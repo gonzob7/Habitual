@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="293" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pmL-98-4al">
-                        <rect key="frame" x="0.0" y="0.0" width="293" height="44"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pmL-98-4al">
+                        <rect key="frame" x="10" y="0.0" width="283" height="44"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xeQ-Ai-fc4">
                                 <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
@@ -26,13 +26,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-FG-RDG">
-                                <rect key="frame" x="54" y="0.0" width="195" height="44"/>
+                                <rect key="frame" x="49" y="0.0" width="195" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-cJ-mBr">
-                                <rect key="frame" x="259" y="0.0" width="34" height="44"/>
+                                <rect key="frame" x="249" y="0.0" width="34" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                 <constraints>
                     <constraint firstItem="pmL-98-4al" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8sB-xQ-qvL"/>
                     <constraint firstAttribute="trailing" secondItem="pmL-98-4al" secondAttribute="trailing" id="HQM-8j-eZd"/>
-                    <constraint firstItem="pmL-98-4al" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Xeo-N1-ejQ"/>
+                    <constraint firstItem="pmL-98-4al" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Xeo-N1-ejQ"/>
                     <constraint firstAttribute="bottom" secondItem="pmL-98-4al" secondAttribute="bottom" id="rZF-UD-k99"/>
                 </constraints>
             </tableViewCellContentView>
