@@ -101,4 +101,14 @@ extension AddHabitViewController: UICollectionViewDataSource, UICollectionViewDe
                         insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
+        if selectedIndexPath == indexPath {
+          selectedIndexPath = nil
+        } else {
+          selectedIndexPath = indexPath
+        }
+          return false
+    }
 }
