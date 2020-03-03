@@ -81,8 +81,11 @@ extension AddHabitViewController: UICollectionViewDataSource, UICollectionViewDe
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HabitImageCollectionViewCell.identifier, for: indexPath) as! HabitImageCollectionViewCell
-
-         cell.setImage(image: habitImages[indexPath.row].image)
+        if indexPath == selectedIndexPath{
+            cell.setImage(image: habitImages[indexPath.row].image, withSelection: true)
+        }else{
+            cell.setImage(image: habitImages[indexPath.row].image, withSelection: false)
+        }
 
          return cell
     }

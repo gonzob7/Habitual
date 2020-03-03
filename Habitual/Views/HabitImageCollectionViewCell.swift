@@ -18,8 +18,14 @@ class HabitImageCollectionViewCell: UICollectionViewCell {
         return UINib(nibName: String(describing: self), bundle: nil)
     }
 
-    func setImage(image: UIImage){
-        self.habitImage.image = image
+    func setImage(image: UIImage, withSelection: Bool){
+        
+        if withSelection{
+            self.habitImage.image = image.withRenderingMode(.alwaysOriginal)
+        }else{
+            self.habitImage.image = image.withRenderingMode(.alwaysTemplate)
+            self.habitImage.tintColor = UIColor.gray
+        }
     }
 
 }
