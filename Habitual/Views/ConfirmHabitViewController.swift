@@ -19,8 +19,6 @@ class ConfirmHabitViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
 
         // Do any additional setup after loading the view.
     }
@@ -35,6 +33,7 @@ class ConfirmHabitViewController: UIViewController {
     private func updateUI() {
         title = "New Habit"
         habitImageView.image = habitImage.image
+        habitNameInputField.isHidden = false
     }
     
     
