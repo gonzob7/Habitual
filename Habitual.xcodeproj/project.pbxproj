@@ -24,6 +24,8 @@
 		E094EF9C240C987D0052306F /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF9B240C987D0052306F /* PersistenceLayer.swift */; };
 		E094EF9F240CA2B90052306F /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094EF9D240CA2B90052306F /* AddHabitViewController.swift */; };
 		E094EFA0240CA2B90052306F /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094EF9E240CA2B90052306F /* AddHabitViewController.xib */; };
+		E0E931AF240DEDCA00594915 /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E931AD240DEDCA00594915 /* HabitImageCollectionViewCell.swift */; };
+		E0E931B0240DEDCA00594915 /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		E094EF9B240C987D0052306F /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
 		E094EF9D240CA2B90052306F /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
 		E094EF9E240CA2B90052306F /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
+		E0E931AD240DEDCA00594915 /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				E094EF98240C6F070052306F /* HabitTableViewCell.xib */,
 				E094EF9D240CA2B90052306F /* AddHabitViewController.swift */,
 				E094EF9E240CA2B90052306F /* AddHabitViewController.xib */,
+				E0E931AD240DEDCA00594915 /* HabitImageCollectionViewCell.swift */,
+				E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				E04A2E2B2400D9090049AF9F /* LaunchScreen.storyboard in Resources */,
 				E094EF9A240C6F070052306F /* HabitTableViewCell.xib in Resources */,
 				E094EF23240B3AD90052306F /* HabitsTableViewController.xib in Resources */,
+				E0E931B0240DEDCA00594915 /* HabitImageCollectionViewCell.xib in Resources */,
 				E04A2E282400D9090049AF9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 				E04A2E212400D9080049AF9F /* SceneDelegate.swift in Sources */,
 				E094EF22240B3AD90052306F /* HabitsTableViewController.swift in Sources */,
 				E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */,
+				E0E931AF240DEDCA00594915 /* HabitImageCollectionViewCell.swift in Sources */,
 				E094EF9F240CA2B90052306F /* AddHabitViewController.swift in Sources */,
 				E094EF2E240C66AC0052306F /* DateExtensions.swift in Sources */,
 			);

@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddHabitViewController" customModule="Habitual" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="OWO-Y8-gyy" id="WxR-NX-VqX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +18,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="OWO-Y8-gyy">
-                    <rect key="frame" x="87" y="372" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="OWO-Y8-gyy">
+                    <rect key="frame" x="15" y="59" width="384" height="672"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PEU-CZ-gDW">
                         <size key="itemSize" width="50" height="50"/>
@@ -32,13 +32,28 @@
                         <outlet property="delegate" destination="-1" id="gwn-bW-emf"/>
                     </connections>
                 </collectionView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zJ-RU-itI">
-                    <rect key="frame" x="170" y="615" width="74" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zJ-RU-itI">
+                    <rect key="frame" x="15" y="746" width="384" height="50"/>
+                    <color key="backgroundColor" red="0.52941176469999995" green="0.77647058820000003" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="v4d-K7-U62"/>
+                    </constraints>
                     <state key="normal" title="Pick Photo"/>
+                    <connections>
+                        <action selector="pickPhotoButtonPressed:" destination="-1" eventType="touchUpInside" id="P7J-Ln-VJJ"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OWO-Y8-gyy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="3Ea-cX-hRT"/>
+                <constraint firstItem="OWO-Y8-gyy" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.75" id="74y-sa-04j"/>
+                <constraint firstItem="OWO-Y8-gyy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="QT7-aC-EZa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8zJ-RU-itI" secondAttribute="trailing" constant="15" id="UcY-ce-LTD"/>
+                <constraint firstItem="8zJ-RU-itI" firstAttribute="top" secondItem="OWO-Y8-gyy" secondAttribute="bottom" constant="15" id="dbN-55-JdV"/>
+                <constraint firstItem="8zJ-RU-itI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="gIp-lz-Ba2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OWO-Y8-gyy" secondAttribute="trailing" constant="15" id="gld-iJ-Dib"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="130"/>
         </view>
