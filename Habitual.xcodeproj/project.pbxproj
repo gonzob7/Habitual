@@ -28,6 +28,8 @@
 		E0E931B0240DEDCA00594915 /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */; };
 		E0E931B3240DFA0600594915 /* ConfirmHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E931B1240DFA0600594915 /* ConfirmHabitViewController.swift */; };
 		E0E931B4240DFA0600594915 /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E931B2240DFA0600594915 /* ConfirmHabitViewController.xib */; };
+		E0E931B7240DFF9D00594915 /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E931B5240DFF9D00594915 /* HabitDetailedViewController.swift */; };
+		E0E931B8240DFF9D00594915 /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E931B6240DFF9D00594915 /* HabitDetailedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		E0E931B1240DFA0600594915 /* ConfirmHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHabitViewController.swift; sourceTree = "<group>"; };
 		E0E931B2240DFA0600594915 /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
+		E0E931B5240DFF9D00594915 /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
+		E0E931B6240DFF9D00594915 /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				E0E931AE240DEDCA00594915 /* HabitImageCollectionViewCell.xib */,
 				E0E931B1240DFA0600594915 /* ConfirmHabitViewController.swift */,
 				E0E931B2240DFA0600594915 /* ConfirmHabitViewController.xib */,
+				E0E931B5240DFF9D00594915 /* HabitDetailedViewController.swift */,
+				E0E931B6240DFF9D00594915 /* HabitDetailedViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				E0E931B0240DEDCA00594915 /* HabitImageCollectionViewCell.xib in Resources */,
 				E0E931B4240DFA0600594915 /* ConfirmHabitViewController.xib in Resources */,
 				E04A2E282400D9090049AF9F /* Assets.xcassets in Resources */,
+				E0E931B8240DFF9D00594915 /* HabitDetailedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +212,7 @@
 				E04A2E1F2400D9080049AF9F /* AppDelegate.swift in Sources */,
 				E094EF9C240C987D0052306F /* PersistenceLayer.swift in Sources */,
 				E04A2E212400D9080049AF9F /* SceneDelegate.swift in Sources */,
+				E0E931B7240DFF9D00594915 /* HabitDetailedViewController.swift in Sources */,
 				E094EF22240B3AD90052306F /* HabitsTableViewController.swift in Sources */,
 				E094EF99240C6F070052306F /* HabitTableViewCell.swift in Sources */,
 				E0E931AF240DEDCA00594915 /* HabitImageCollectionViewCell.swift in Sources */,

@@ -78,7 +78,7 @@ extension AddHabitViewController: UICollectionViewDataSource, UICollectionViewDe
             cell.setImage(image: habitImages[indexPath.row].image, withSelection: false)
         }
 
-         return cell
+        return cell
     }
     
      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -95,7 +95,7 @@ extension AddHabitViewController: UICollectionViewDataSource, UICollectionViewDe
                         insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     }
-    
+        
     
     func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
         if selectedIndexPath == indexPath {

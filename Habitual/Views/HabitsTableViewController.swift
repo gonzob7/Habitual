@@ -85,10 +85,10 @@ extension HabitsTableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
-         let selectedHabit = persistence.habits[indexPath.row]
-         let habitDetailVC = HabitDetailedViewController.instantiate()
-         habitDetailVC.habit = selectedHabit
-         habitDetailVC.habitIndex = indexPath.row
-         navigationController?.pushViewController(habitDetailVC, animated: true)
+        let selectedHabit = persistence.habits[indexPath.row]
+        let habitDetailVC = HabitDetailedViewController.instantiate()
+        habitDetailVC.habit = selectedHabit
+        habitDetailVC.habitIndex = indexPath.row
+        navigationController?.pushViewController(habitDetailVC, animated: true)
     }
 }
