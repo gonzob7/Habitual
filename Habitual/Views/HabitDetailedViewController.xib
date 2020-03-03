@@ -9,6 +9,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HabitDetailedViewController" customModule="Habitual" customModuleProvider="target">
             <connections>
+                <outlet property="buttonAction" destination="08u-1T-fey" id="24A-2I-qYi"/>
+                <outlet property="imageViewIcon" destination="LdQ-Mq-OCl" id="aXL-kW-juF"/>
+                <outlet property="labelBestStreak" destination="Y0c-0v-Iqb" id="5Qe-zj-knh"/>
+                <outlet property="labelCurrentStreak" destination="biq-tH-oXv" id="mz5-GF-fdY"/>
+                <outlet property="labelStartingDate" destination="hOi-OS-6Fp" id="fYQ-BN-Y1O"/>
+                <outlet property="labelTotalCompletions" destination="Xb9-J2-gn3" id="wGw-cM-YMZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

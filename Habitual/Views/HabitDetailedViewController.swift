@@ -13,6 +13,17 @@ class HabitDetailedViewController: UIViewController {
     var habit: Habit!
     var habitIndex: Int!
     
+    private var persistence = PersistenceLayer()
+
+    @IBOutlet weak var imageViewIcon: UIImageView!
+    @IBOutlet weak var labelCurrentStreak: UILabel!
+    @IBOutlet weak var labelTotalCompletions: UILabel!
+    @IBOutlet weak var labelBestStreak: UILabel!
+    @IBOutlet weak var labelStartingDate: UILabel!
+    @IBOutlet weak var buttonAction: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
