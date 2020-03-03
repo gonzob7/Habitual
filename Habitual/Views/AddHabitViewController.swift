@@ -10,6 +10,21 @@ import UIKit
 
 class AddHabitViewController: UIViewController {
 
+    var selectedIndexPath: IndexPath? {
+        didSet {
+            var indexPaths: [IndexPath] = []
+            if let selectedIndexPath = selectedIndexPath {
+                indexPaths.append(selectedIndexPath)
+            }
+            if let oldValue = oldValue {
+                indexPaths.append(oldValue)
+            }
+            collectionView.performBatchUpdates({
+                self.collectionView.reloadItems(at: indexPaths)
+            })
+        }
+    }
+    
     @IBOutlet weak var collectionView: UICollectionView!
     let habitImages = Habit.Images.allCases
 
